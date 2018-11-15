@@ -1,5 +1,7 @@
 # Run SECOND as a ROS Node
 
+This project is still work in progress. Feel free to make pull request and improve the performance together.
+
 This work is mostly based on [SECOND detector](https://github.com/traveller59/second.pytorch) and [Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros). Special thanks to [@tigerk0430](https://github.com/tigerk0430) and [@qianguih](https://github.com/qianguih)!
 
 ## Instructions
@@ -28,3 +30,6 @@ Play a bag from KITTI and see the result!
 ```
 roslaunch second_ros second_kitt.launch
 ```
+
+## Video
+Check out the SECOND in Rviz at [link](https://www.youtube.com/watch?v=sRYLlBgouvI). The ROS bag is from KITTI raw dataset 2011_09_26_drive_0005.
