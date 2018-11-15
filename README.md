@@ -1,11 +1,11 @@
 # Run SECOND as a ROS Node
 
-This project is still work in progress. Feel free to make pull request and improve the performance together.
+This project is still work in progress. Feel free to make pull requests and improve the performance together.
 
 It is mostly based on [SECOND detector](https://github.com/traveller59/second.pytorch) and [Voxelnet ROS Implementation](https://github.com/tigerk0430/voxelnet_ros). Special thanks to [@traveller59](https://github.com/traveller59), [@tigerk0430](https://github.com/tigerk0430) and [@qianguih](https://github.com/qianguih)!
 
 ## Instructions
-Make sure the modify the paths in the scripts based on your setting accordingly.
+Make sure to modify the paths in the scripts based on your setting accordingly.
 
 ### Step 1: build package
 ```
