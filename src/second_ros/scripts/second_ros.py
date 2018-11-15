@@ -337,7 +337,7 @@ def velo_callback(msg):
 			bbox.header.frame_id = msg.header.frame_id
 			# bbox.header.stamp = rospy.Time.now()
 
-			q = quaternion_from_euler(0,0,float(dt_box_lidar[i][6]))
+			q = quaternion_from_euler(0,0,-float(dt_box_lidar[i][6]))
 			bbox.pose.orientation.x = q[0]
 			bbox.pose.orientation.y = q[1]
 			bbox.pose.orientation.z = q[2]
