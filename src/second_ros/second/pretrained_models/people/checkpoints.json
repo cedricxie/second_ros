@@ -1,0 +1,14 @@
+{
+  "latest_ckpt": {
+    "voxelnet": "voxelnet-148480.tckpt",
+    "adam_optimizer": "adam_optimizer-148480.tckpt"
+  },
+  "all_ckpts": {
+    "voxelnet": [
+      "voxelnet-148480.tckpt"
+    ],
+    "adam_optimizer": [
+      "adam_optimizer-148480.tckpt"
+    ]
+  }
+}
